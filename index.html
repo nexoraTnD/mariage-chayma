@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitation de Mariage - Chayma</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floating-petals" id="petals"></div>
+  <div class="gold-light"></div>
+
+  <main>
+    <section class="screen intro active" id="intro">
+      <div class="whatsapp-card">
+        <div class="message-dot"></div>
+        <p class="mini">Vous avez reçu une invitation</p>
+        <h1>Mariage de Chayma</h1>
+        <p class="sub">Une douce surprise vous attend...</p>
+        <button id="openIntro">Ouvrir l’invitation</button>
+      </div>
+    </section>
+
+    <section class="screen envelope-screen" id="envelopeScreen">
+      <p class="tap-text">Touchez l’enveloppe</p>
+
+      <div class="envelope" id="envelope">
+        <div class="back"></div>
+        <div class="letter">
+          <span>Invitation</span>
+          <strong>Chayma</strong>
+          <small>17 & 18 juillet 2026</small>
+        </div>
+        <div class="front-left"></div>
+        <div class="front-right"></div>
+        <div class="front-bottom"></div>
+        <div class="flap"></div>
+        <div class="seal">♡</div>
+      </div>
+    </section>
+
+    <section class="screen invitation" id="invitation">
+      <button class="music-btn" id="musicBtn">♫ Pause</button>
+
+      <article class="card">
+        <div class="floral top">✿ ✾ ❀</div>
+        <div class="floral bottom">❀ ✾ ✿</div>
+
+        <div class="ornament">❦</div>
+        <p class="label">Invitation</p>
+        <h2>de Mariage</h2>
+
+        <p class="text">
+          C’est avec une immense joie que nous avons l’honneur de vous inviter
+          à célébrer le mariage de
+        </p>
+
+        <h1>Chayma</h1>
+
+        <p class="text highlight">
+          Votre présence illuminera ces moments précieux remplis d’amour,
+          de bonheur et de partage.
+        </p>
+
+        <div class="events">
+          <div class="event">
+            <div class="heart">♡</div>
+            <div>
+              <p class="date">Vendredi 17 juillet 2026</p>
+              <p class="place">Aché & Sahriya</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="heart">♡</div>
+            <div>
+              <p class="date">Samedi 18 juillet 2026</p>
+              <p class="place">Aché & Tahfe</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-box">
+          <p class="location-title">📍 Localisation</p>
+          <p class="location-text">Walagh, Djerba, Tunisie</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Walagh%20Djerba%20Tunisie" target="_blank">
+            Ouvrir dans Google Maps
+          </a>
+        </div>
+
+        <div class="countdown">
+          <p>Compte à rebours</p>
+          <div class="timer">
+            <span><b id="days">00</b>Jours</span>
+            <span><b id="hours">00</b>Heures</span>
+            <span><b id="minutes">00</b>Min</span>
+            <span><b id="seconds">00</b>Sec</span>
+          </div>
+        </div>
+
+        <p class="final">
+          Nous serons ravis de partager avec vous ces instants inoubliables.
+        </p>
+        <p class="quote">Le bonheur est réel lorsqu’il est partagé.</p>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
